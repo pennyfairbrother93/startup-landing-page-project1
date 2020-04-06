@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup Page</title>
+
+    <!-- Required meta tags -->
+    <!-- Tag 1 - Code we're using = utf-8. Tag 2 - Make website scalable for all size devices/screens incl mobiles. Add these meta tags to all websites. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- Open up view-developer-inspect elements and hover over elements to see how the bootstrap grid layout works -->
+    <!-- Bootstrap incorporates flexbox! d-flex class initiates flexbox within bootstrap. h-100 = bootstrap class for extending container to 100% html page height so that the elements are vertically center aligned relative to the whole page. -->
+    <div class="container d-flex align-items-center h-100">
+      <div class="row">
+        <!-- Bootstrap styling - copied bootstrap classes for uppercase text, center text, button, and button primary (then customising/ adjusting these with css styling ourselves). Plus added our own class for extra large button and added css styling to that aswell.) -->
+        <header class="text-center col-12">
+          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+        </header>
+        <!-- Adding an extra (empty) section to create space between the header and the button - a container of 12 units, but to put space into the container so that it shows up on the webpage, you need to add a style and generate the height of the space  -->
+        <div class="buffer col-12"></div>
+        <section class="text-center col-12">
+          <hr>
+          <a href=" https://mailchi.mp/010ab0dba9b9/ztm">
+           <button class="btn btn-primary btn-xl">Find out more</button>
+          </a> 
+        </section>  
+      </div>  
+    </div>
+  </body>
+</html>
